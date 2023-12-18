@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Overpass&family=Poppins:ital,wght@1,200&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 12%, 8%);
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 30%;
+    height: 66vh;
+    /* font-family: 'DM Sans', sans-serif; */
+    font-family: 'Overpass', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31,38,48);
+    /* border: 1px solid gray; */
+    border-radius: 25px;
+}
+.rater{
+    width: 87%;
+    height: 55vh;
+}
+.star_image{
+    width: 13%;
+    height: 8vh;
+    border-radius: 50%;
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(40,46,53) ;
+}
+.content{
+    height: 25vh;
+}
+.content h3{
+    color: rgb(232,237,237);
+    font-size: 25px;
+    word-spacing: 3px;
+    padding-top: 20px;
+}
+.content p{
+    font-size: 15px;
+    color: rgb(109,116,127);
+    padding-top: 15px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+}
+.numbers{
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.number1{
+    width: 16%;
+    height: 9vh;
+    color: hsl(217, 12%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgb(39,49,56);
+}
+.number1:hover{
+    background-color: #7c8897; 
+     color: #f8feff; 
+    cursor: pointer;
+}
+.number2{
+    width: 16%;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(217, 12%, 63%);
+    border-radius: 50%;
+    background-color: rgb(39,49,56);
+}
+.number2:hover{
+    background-color: #7c8897; 
+     color: #f8feff; 
+    cursor: pointer;
+}
+.number3{
+    width: 16%;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(217, 12%, 63%);
+    border-radius: 50%;
+    background-color: rgb(39,49,56);
+}
+.number3:hover{
+    background-color: #7c8897; 
+     color: #f8feff; 
+    cursor: pointer;
+}
+.number4{
+    width: 16%;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(217, 12%, 63%);
+    border-radius: 50%;
+    background-color: rgb(39,49,56);
+}
+.number4:hover{
+    background-color: #7c8897; 
+     color: #f8feff; 
+    cursor: pointer;
+}
+.number5{
+    width: 16%;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(217, 12%, 63%);
+    border-radius: 50%;
+    background-color: rgb(39,49,56);
+}
+.number5:hover{
+    background-color: #7c8897; 
+     color: #f8feff; 
+    cursor: pointer;
+}
+.btn{
+    width: 100%;
+    height: 6.5vh;
+    border-radius: 30px;
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width:100%;
+    border: none;
+    cursor: pointer;
+    height:8vh ;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 30px;
+    text-transform: uppercase;
+    /* font-family: 'Poppins', sans-serif ; */
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    color:  hsl(0, 0%, 100%);
+    letter-spacing: 1.5px;
+}
+button:hover{
+    background-color: #ffffff;
+    color: #de9363;
+    border: none;
+}
+
+.wrapper{
+    width: 30%;
+    height: 66vh;
+    background-color: #1e252f;
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 30px;
+    justify-content: center;
+}
+.list{
+    width: 85%;
+    height:53vh ;
+    display: flex;
+    flex-direction: column;
+    padding:30px 0px 0px 20px ;
+    align-items: center;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.image p{
+    background-color: #252f3a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #c67d4d;
+    border-radius: 20px;
+    height: 5vh;
+    font-size: 13px;
+}
+.image p span{
+    letter-spacing: 3px;
+    padding-left: 3px;
+}
+.Thank_selecter{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 25vh;
+}
+.Thank_selecter h2{
+    font-size: 25px;
+    color: #fcfcff;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 25px;
+}
+.Thank_selecter p{
+    font-size: 14px;
+    text-align: center;
+    color: #898f99;
+    padding-top: 20px;
+    line-height: 20px;
+}
+.checked{
+    background-color:  rgb(253,118,20);
+}
+@media(max-width:450px){
+    .container{
+        width: 90%;
+        height: 72vh;
+    }
+    .star_image{
+        width: 22%;
+        height: 10vh;
+    }
+    .content p{
+        font-size: 11px;
+        /* line-height: 25px; */
+        padding-top: 15px;
+        /* border: 1px solid red; */
+    }
+    .content h3{
+        font-size: 25px;
+        padding-top: 25px;
+    }
+    .numbers{
+        justify-content: space-around;
+        padding-top: 5px;
+    }
+    .number1{
+        width: 15%;
+        height: 8vh;
+        color: hsl(217, 12%, 63%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background-color: rgb(39,49,56);
+    }
+    .number1:hover{
+        background-color: hsl(25, 97%, 53%); 
+         color: #f8feff; 
+        cursor: pointer;
+    }
+    .number2{
+        width: 15%;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: hsl(217, 12%, 63%);
+        border-radius: 50%;
+        background-color: rgb(39,49,56);
+    }
+    .number2:hover{
+        background-color: hsl(25, 97%, 53%); 
+         color: #f8feff; 
+        cursor: pointer;
+    }
+    .number3{
+        width: 15%;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: hsl(217, 12%, 63%);
+        border-radius: 50%;
+        background-color: rgb(39,49,56);
+    }
+    .number3:hover{
+        background-color: hsl(25, 97%, 53%); 
+         color: #f8feff; 
+        cursor: pointer;
+    }
+    .number4{
+        width: 15%;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: hsl(217, 12%, 63%);
+        border-radius: 50%;
+        background-color: rgb(39,49,56);
+    }
+    .number4:hover{
+        background-color: hsl(25, 97%, 53%); 
+         color: #f8feff; 
+        cursor: pointer;
+    }
+    .number5{
+        width: 15%;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: hsl(217, 12%, 63%);
+        border-radius: 50%;
+        background-color: rgb(39,49,56);
+    }
+    .number5:hover{
+        background-color: hsl(25, 97%, 53%); 
+         color: #f8feff; 
+        cursor: pointer;
+    }
+    .btn{
+        padding-top:10px ;
+    }
+    .wrapper{
+        width: 90%;
+        height: 72vh;
+        align-items: center;
+        justify-content: center;
+    }
+   .list{
+    width: 95%;
+    height: 60vh;
+   }
+   .image{
+    padding-top: 20px;
+   }
+   .image p{
+    font-size: 12px;
+    margin-top: 20px;
+   }
+   .Thank_selecter h2{
+       padding-top: 40px;
+    }
+    .Thank_selecter p{
+        font-size: 11px;
+   }
+}
